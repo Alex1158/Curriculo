@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(200, 219, 219);
+}
+
+.autor{
+    color: blue;
+    text-align: inherit;    
+    border-bottom: dotted 10px crimson;
+    
+}
+.aluno, .autor, #mydiv{
+    margin-inline: 1%;    
+}
+
+.mail{
+    font-style: italic;
+    font-size: 15px;
+    
+}
+.cont{
+    font-size: 200%;
+    color: black;
+}
+
+.ked{
+    font-style: italic;
+    font-size: 20px;
+    color: blue;
+}
+
+
+#mydiv{
+    width: 93%;
+    height: 90%;
+    padding: 1%;
+    border: 1px solid black;
+    animation: mymove 8s infinite;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@keyframes mymove{
+    50%{ border: 13px solid #87cefa}
+    30%{background-color: lightblue;}
+}
+
+a:link {
+    color: black;
+}
+a:hover {
+    text-decoration: red;
+}
+li{
+    text-align: center;
+}
+
+.description{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin: 1%;
+}
+mark{
+    background-color: rgb(36, 214, 36);
+}
