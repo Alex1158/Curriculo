@@ -8,7 +8,7 @@ body{
     border-bottom: dotted 10px crimson;
     
 }
-.aluno, .autor, #mydiv{
+.aluno, .autor, #mydiv, .Exp{
     margin-inline: 1%;    
 }
 
